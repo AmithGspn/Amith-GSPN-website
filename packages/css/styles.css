@@ -23,6 +23,8 @@
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
   --btn-color:#000;
+  --active-color : #272626;
+
 
 
   /*========== Font and typography ==========*/
@@ -87,6 +89,7 @@ body.dark-theme {
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
   --btn-color:#fff;
+  --active-color : #fffffd;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -262,8 +265,7 @@ img {
 }
 
 .nav__link:hover {
-  /* color: var(--first-color); */
-  color: var(--title-color);
+  color: var(--active-color);
 
 }
 
@@ -292,8 +294,10 @@ img {
 }
 
 /* Active link */
-.active-link {
-  color: #fff;
+.active-link{
+  /* color: #1f1e1a; */
+  color: var(--active-color);
+
 }
 
 /* Change background header */
